@@ -5,10 +5,10 @@ from django.shortcuts import render
 def index(request):
     return render(request,'index.html')
 
-def about(request):
+def education(request):
     return render(request,'about.html')
 
-def cv(request):
+def skills(request):
     return render(request,'cycv.html')
 
 def contact(request):

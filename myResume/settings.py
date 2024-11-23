@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'website.apps.WebsiteConfig',
+    'blog.apps.BlogConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -47,9 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'website.apps.WebsiteConfig',
-    'blog.apps.BlogConfig',
-]
+]  
 
 ROOT_URLCONF = 'myResume.urls'
 

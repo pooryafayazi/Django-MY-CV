@@ -9,3 +9,4 @@ urlpatterns = [
     path('skills', skills,name='skills'),
     path('contact', contact,name='contact'),
 ]
+
